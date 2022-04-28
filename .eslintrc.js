@@ -6,8 +6,6 @@ module.exports = {
   extends: ['plugin:vue/essential', '@vue/airbnb'],
   plugins: ['prettier'],
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     'import/no-extraneous-dependencies': ['off'],
     'no-extraneous-dependencies': ['off'],
     'arrow-parens': ['off'],
